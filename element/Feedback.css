@@ -1,0 +1,31 @@
+.feedback-form {
+    margin-top: 26px;
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.star-rating .on .star {
+    color: gold;
+}
+
+.star-rating .off .star {
+    color: white;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}

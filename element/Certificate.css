@@ -1,0 +1,64 @@
+/* @page {
+    size: A4 landscape;
+    margin: 10px;
+} */
+
+.border-pattern {
+    position: absolute;
+    /* padding: 7px; */
+    left: 59mm;
+    height: 176mm;
+    width: 267mm;
+    /* border: 1mm solid #991B1B; */
+    /* background-color: #d6d6e4; */
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23991B1B' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.content {
+    position: absolute;
+    left: 10mm;
+    top: 10mm;
+    height: 154mm;
+    width: 247mm;
+    border: 1mm solid #991B1B;
+    background: white;
+}
+.inner-content {
+    border: 1mm solid #991B1B;
+    margin: 4mm;
+    padding: 3mm;
+    height: 138mm;
+    text-align: center;
+}
+.inner-content h1{
+    font-size: 50px;
+    
+
+}
+.inner-content h2 {
+    font-size: 40px;
+    /* color: #4CAF50; */
+    margin: 60px 0;
+}
+.inner-content p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.download-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 60px;
+
+
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }

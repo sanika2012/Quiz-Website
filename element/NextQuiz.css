@@ -1,0 +1,117 @@
+/* .quiz-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.timer {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.red-timer {
+    color: red;
+}
+
+.question-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+.option input[type="radio"] {
+    margin-right: 8px;
+}
+
+.submit-button, .restart-btn, .next-level-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.submit-button:hover, .restart-btn:hover, .next-level-btn:hover {
+    background-color: #0056b3;
+}
+
+.score-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.score-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.score-section p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.score-section h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #444;
+}
+
+.feedback {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .options {
+        grid-template-columns: 1fr;
+    }
+
+    .submit-button, .restart-btn, .next-level-btn {
+        width: 100%;
+    }
+} */

@@ -1,0 +1,149 @@
+/* src/SignUp.css */
+
+/* .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .signup-form {
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    width: 300px;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .required {
+    color: red;
+    margin-left: 5px;
+  } */
+
+
+  /* src/SignUp.css */
+
+.signup-container {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+}
+
+.signup-form {
+
+  padding: 20px;
+  
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 550px; /* Increased width */
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+
+
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  margin:7px;
+  flex-direction: column;
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  margin: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  height: 30px; /* Shorter height */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+.stored-data {
+  background-color: white;
+  color:black;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 600px; /* Same width as the form */
+  margin-top: 20px;
+}
+
+.stored-data h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.stored-data p {
+  margin: 10px 0;
+}
+
+  
